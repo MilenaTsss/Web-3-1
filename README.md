@@ -6,7 +6,14 @@
 Тесты написаны в файле test/ERC20Test.js. Запускается через `npx hardhat test`
 Контракты задеплоены в тестовой сети. В тестовой сети можно задеплоить запустив команду `npx hardhat run scripts/MilenaTssERC20.js --network sepolia`. Также можно сделать локальную сеть командой `npx hardhat node` и выполнить деплой командой `npx hardhat run scripts/MilenaTssERC20.js --network local`.
 
+Скрипт просмотра storage: `scripts/storage_view.js`. Скрипт с примерами вызова функций контракта: `scripts/tokens_example.js`. Запуск скрипта : `npx hardhat run scripts/tokens_example.js --network local`. Скрипт для нахождения событий: `scripts/events.js`.
+
 Адрес кошелька - `0xa2b1D6AF982746Cf3E6B2104c017C7a336f332a7` в тестовой сети Sepolia. Все действия по [ссылке](https://sepolia.etherscan.io/address/0xa2b1D6AF982746Cf3E6B2104c017C7a336f332a7)
+
+![Sepolia token](./images/sepolia_token.png) ![Sepolia nft](./images/sepolia_nft_721.png)
+
+![Local token](./images/local_token.png)
+
 
 ## Вопросы по стандартам ERC20, ERC721, ERC1155
 
